@@ -1,0 +1,255 @@
+(ExpressProject "BLDC_Motor_Controller"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S002 (3832364) [12/17/2019]-[04/15/16]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "z:\documents\orcad projects\svn orcad\capture_libs\regulators.olb"
+        (Type "Schematic Library"))
+      (File "z:\documents\orcad projects\svn orcad\capture_libs\test.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\libraries\shipcse.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\libraries\briggs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bldc_motor_controller.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" ".\allegro\bldcv2.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "C:\USERS\MZ7116\UGRESEARCH\BLDC_MOTOR_CONTROLLER.SWP")
+    (Backannotation_TAB "1")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\ORCAD_PROJECTS\BLDC_CONTROLLER\BLDC_MOTOR_CONTROLLER.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Input Board File"
+       "C:\orcad_projects\BLDC_Controller\allegro\bldcv2.brd")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout"
+    (File ".\allegro\bldcv2.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\bldcv2.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1"))
+    (File ".\allegro\bldc_motor_controller.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\bldc_motor_controller.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\bldc_motor_controller.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (IXTP96P085T
+      (FullPartName "IXTP96P085T.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    (IXTP180N10T
+      (FullPartName "IXTP180N10T.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    (FETIXTP96P085T_0
+      (FullPartName "FETIXTP96P085T_0.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (IXDN602
+      (FullPartName "IXDN602.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "1"))
+    (IXDI604PI
+      (FullPartName "IXDI604PI.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "1"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("mcp601 opamp"
+      (FullPartName "mcp601 opamp.Normal")
+      (LibraryName "C:\ORCAD\LIBRARIES\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IDXI604PI
+      (FullPartName "IDXI604PI.Normal")
+      (LibraryName
+         "Z:\DOCUMENTS\ORCAD PROJECTS\SVN ORCAD\CAPTURE_LIBS\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    (MOSFETIXTP96P085T
+      (FullPartName "MOSFETIXTP96P085T.Normal")
+      (LibraryName
+         "Z:\DOCUMENTS\ORCAD PROJECTS\SVN ORCAD\CAPTURE_LIBS\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    (MOSFET-NTD4960N
+      (FullPartName "MOSFET-NTD4960N.Normal")
+      (LibraryName
+         "Z:\DOCUMENTS\ORCAD PROJECTS\SVN ORCAD\CAPTURE_LIBS\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    ("OPAMP SINGLE SUPPLY"
+      (FullPartName "OPAMP SINGLE SUPPLY.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "1"))
+    (shipcse
+      (LibraryName
+         "Z:\DOCUMENTS\ORCAD PROJECTS\SVN ORCAD\CAPTURE_LIBS\BRIGGS.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4x2/SM"
+      (FullPartName "HEADER 4x2/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (OPA622/SO
+      (FullPartName "OPA622/SO.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (OP61
+      (FullPartName "OP61.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\orcad_projects\BLDC_Controller\bldc_motor_controller.dsn")
+      (Path "Design Resources"
+         "C:\orcad_projects\BLDC_Controller\bldc_motor_controller.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "c:\orcad\libraries\briggs.olb")
+      (Path "Layout")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\orcad_projects\BLDC_Controller\bldc_motor_controller.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 0 647 0 0 0 200 0 441"))
+      (Tab 0)))
+  (MPSSessionName "tbriggs")
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
